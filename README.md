@@ -32,7 +32,7 @@ Absolute generation and generation per person describe different aspects of the 
 
 ## Run locally
 
-Use Python 3.10 or newer. From the repository root:
+The notebook was tested with Python 3.14 and the analysis package versions pinned in `requirements.txt`. From the repository root:
 
 ```bash
 python -m venv .venv
@@ -45,11 +45,17 @@ python -m pip install -r requirements.txt
 jupyter lab notebooks/european-renewable-electricity-analysis.ipynb
 ```
 
-Place the original `renewable_energy_readings.csv` and `countries.csv` files in `data/raw/` before running all notebook cells in order. These CSVs were not included in the recovered project attachments. This repository is therefore a documented portfolio submission with a prepared notebook, rather than a fully reproducible data release.
+The original `renewable_energy_readings.csv` and `countries.csv` files are included in `data/raw/`. Run all notebook cells in order. The data was supplied by the author; its external provenance has not been independently verified.
 
 ## Preparation and validation status
 
-For this repository, the notebook's per-capita conversion was corrected before its chart, input paths were made relative, and explanatory Markdown was added. Saved notebook outputs were cleared to avoid displaying results from an earlier execution beside changed code. Code cells were checked for Python syntax; the analysis has **not** been rerun because its source data is unavailable. The PDF and PowerPoint are original exports, not regenerated results.
+The notebook was executed from start to finish on **2 November 2026** using the original CSVs supplied by the author. All **31 code cells completed successfully**, and the saved notebook includes regenerated tables and charts. The per-capita conversion is corrected before plotting, input paths are relative, and explanatory Markdown describes each stage.
+
+Validation checks passed for unique country metadata keys, complete country joins, normalized country-date-source observation keys, year/month agreement with dates, positive population values, and the per-person unit conversion.
+
+The rerun reproduced **40 duplicate rows excluding record IDs**, leaving **17,907 observations**. Of those, **17,343 (96.85%)** have valid generation measurements under the notebook's rules; **339** are missing, **148** are negative, and **77** exceed the capacity-based monthly maximum. This is validity among recorded rows, not a measure of reporting completeness. The input contains readings for **34 countries**, while the metadata covers **38**.
+
+The PDF and PowerPoint remain original exports and have not been regenerated from this rerun.
 
 ## Limitations and next steps
 
@@ -58,7 +64,7 @@ For this repository, the notebook's per-capita conversion was corrected before i
 - Data provider, provenance, reporting definitions and redistribution rights require documentation. No official source attribution is claimed here.
 - Supplied population and 2030 targets require independent verification. Target metadata is not evidence of verified policy or a valid target gap.
 - Estimated and provisional readings remain included where generation passes validation; a final-only sensitivity analysis remains outstanding.
-- Duplicate removal precedes category standardization in the submitted workflow; normalized observation keys should be reviewed before interpreting a rerun.
+- Duplicate removal precedes category standardization in the submitted workflow. The rerun confirms that normalized country-date-source keys are unique for these supplied files.
 - Additional data is needed to assess renewable share, fossil-fuel displacement or emissions intensity.
 
 ## Data and licensing
