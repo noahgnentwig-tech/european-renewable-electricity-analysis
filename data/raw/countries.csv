@@ -1,0 +1,39 @@
+country_id,country_name,iso2_code,region,eu_member,population_millions,gdp_per_capita_eur,annual_electricity_demand_twh,target_renewable_share_2030_pct
+5140,Germany,DE,Western Europe,True,83.2,46000,500,55
+6339,France,FR,Western Europe,True,67.8,39000,450,40
+4232,United Kingdom,GB,Northern Europe,False,67.3,41000,300,
+4940,Italy,IT,Southern Europe,True,59.0,32000,300,65
+4164,Spain,ES,Southern Europe,True,47.4,28000,240,40
+2885,Poland,PL,Eastern Europe,True,37.7,17000,160,80
+5789,Netherlands,NL,Western Europe,True,17.6,52000,115,40
+8802,Sweden,SE,Northern Europe,True,10.5,52000,135,50
+4896,Norway,NO,Northern Europe,False,5.4,78000,135,
+3383,Belgium,BE,Western Europe,True,11.6,46000,82,80
+9202,Austria,AT,Western Europe,True,9.0,47000,68,40
+1039,Switzerland,CH,Western Europe,False,8.7,85000,62,
+5586,Finland,FI,Northern Europe,True,5.5,45000,85,80
+1464,Denmark,DK,Northern Europe,True,5.9,60000,34,32
+9145,Portugal,PT,Southern Europe,True,10.3,22000,50,60
+3829,Greece,GR,Southern Europe,True,10.4,19000,50,80
+4133,Czechia,CZ,Eastern Europe,True,10.5,24000,62,45
+9311,Romania,RO,Eastern Europe,True,19.1,14000,55,45
+7366,Ireland,IE,Northern Europe,True,5.0,95000,30,65
+3996,Hungary,HU,Eastern Europe,True,9.7,16000,42,60
+6431,Bulgaria,BG,Eastern Europe,True,6.5,10000,35,42.5
+6267,Slovakia,SK,Eastern Europe,True,5.4,18000,28,60
+2921,Croatia,HR,Southern Europe,True,3.9,15000,17,32
+2428,Serbia,RS,Southern Europe,False,6.8,7500,38,32
+5265,Lithuania,LT,Northern Europe,True,2.8,19000,12,32
+9748,Slovenia,SI,Southern Europe,True,2.1,24000,14,65
+8694,Latvia,LV,Northern Europe,True,1.9,16000,8,32
+4358,Estonia,EE,Northern Europe,True,1.3,23000,9,55
+4696,Iceland,IS,Northern Europe,False,0.38,68000,19,60
+4140,Luxembourg,LU,Western Europe,True,0.65,110000,6.5,40
+2177,Albania,AL,Southern Europe,False,2.8,6500,8,
+2326,North Macedonia,MK,Southern Europe,False,2.1,6200,7,
+4278,Bosnia and Herzegovina,BA,Southern Europe,False,3.2,6000,13,
+8170,Moldova,MD,Eastern Europe,False,2.6,4800,5,
+9826,Malta,MT,Southern Europe,True,0.52,29000,2.3,65
+2250,Cyprus,CY,Southern Europe,True,0.9,31000,5,40
+2635,Montenegro,ME,Southern Europe,False,0.62,9500,3.4,
+4474,Ukraine,UA,Eastern Europe,False,41.0,4500,120,

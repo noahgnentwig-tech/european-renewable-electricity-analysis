@@ -1,5 +1,8 @@
-# Required source data
+# Original source data
 
-Add `renewable_energy_readings.csv` and `countries.csv` here to execute the notebook. They were referenced by the submitted notebook but were not included in the recovered attachments.
+The two original CSVs were supplied by Noah Nentwig on 2 November 2026 and are included unchanged:
 
-Before distributing these files, document their provider, original download location, version or retrieval date, column definitions and license. CSV files are ignored by Git until those details and redistribution rights are confirmed.
+- `renewable_energy_readings.csv`: 17,947 raw rows, 34 reporting country IDs, years 2015–2025.
+- `countries.csv`: 38 country metadata rows. Four countries have no readings in the supplied dataset.
+
+The notebook removes exact duplicates excluding `record_id` before analysis. Provider names, policy targets and population values are supplied metadata. The original download location, external provenance and license have not been independently verified; no open-data license is asserted.
